@@ -5,6 +5,9 @@ body {
     margin: 0%;
     font-family: 'Lato';
 }
+.nav{
+    background-color: #F6EEFD;
+}
 
 .navbar-brand {
     font-family: 'Pacifico', cursive;
@@ -25,7 +28,9 @@ body {
     color: rgb(199, 49, 23) !important;
 }
 
-
+.container-fluid{
+    margin-bottom: 2rem;
+}
 
 .site-content{
     background-image:url('../img/dp.jpg');
@@ -44,15 +49,33 @@ body {
 
 .rounded-circle {
     
-    /* margin-top: 60px ;
-    margin-right: 110px; */
-    /* width: 50%;
-    height: 50%; */
+     /* margin-top: 60px ; */
+    margin-top: 75px;
+    margin-bottom: 10px;
+    /* margin-right: 25px; 
+    margin-left: 25px;
+    margin-bottom: 25px; */
+    width: 250px;
+    height: 250px;
 }
 
 .s3{
-    margin-top: 5rem;
+    margin-top: 1rem;
 }
+
+.s4{
+    /* margin: 1rem; */
+    margin: 1rem;
+    padding: 2rem;
+} 
+
+.page-footer{
+   background-color:#DBC0F9;
+   text-align: center;
+   margin-top: 2rem;
+
+}
+
 /* 
 .row{
     margin-top: 5rem;
@@ -83,10 +106,7 @@ body {
     margin-bottom: 1rem;
 }
 
-.section-3{
-    margin: 2rem;
-    
-}
+
 
 
 .card{
@@ -121,6 +141,30 @@ body {
 .fa-php{
     color: blue;
 }
+
+.fa-twitter{
+    color:#38A1F3;
+}
+
+.fa-instagram{
+    color:#e4405f ;
+}
+
+.fa-facebook{
+    color:blue;
+}
+
+.fa-linkedin{
+    color:#0077B5 ;
+}
+
+.fa-google-plus{
+    color:#dd4b39 ;
+}
+
+
+
+
 
 /*---Media Queries --*/
 @media (max-width: 992px) {}
