@@ -16,6 +16,11 @@
     <!--    To overwrite the bootstrap default CSS always link your main.css after bootstrap.min.css-->
     <link rel="stylesheet" href="css/main.css">
     
+    <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+        crossorigin="anonymous">
+
     <link rel="stylesheet" href="css/contact.css">
 
 </head>
@@ -69,17 +74,96 @@
                         </div>
                     </div>
             </div>
-
+<!-- 
             <form method="POST" action="https://formspree.io/dipenpatel7195@gmail.com">
                 <input type="name" name="name" placeholder="Your Name">
                 <input type="email" name="email" placeholder="Your email">
                 <textarea name="message" placeholder="Test Message"></textarea>
                 <button type="submit">Send Test</button>
               </form>
+ -->
+
+
+              <form class="form " id="contact-form" method="POST" action="https://formspree.io/dipenpatel7195@gmail.com" role="form">
+
+                <div class="messages"></div>
+            
+                <div class="controls">
+            
+                    <div class="row">
+                        <div class="col-md-3"></div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_name">Firstname *</label>
+                                <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                              
+                            </div>
+                        </div>
+                        <div class="col-md-3"></div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-3"></div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label for="form_lastname">Lastname *</label>
+                                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                           
+                                </div>  
+                            </div>
+                        <div class="col-md-3"> </div> 
+                    </div>
+                   
+                    <div class="row">
+                            <div class="col-md-3"> </div> 
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_email">Email *</label>
+                                <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                            </div>
+                        </div>
+                        <div class="col-md-3"> </div> 
+                    </div>
+                    
+
+                    <div class="row">
+                            <div class="col-md-3"> </div> 
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="form_message">Message *</label>
+                                <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please, leave us a message."></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-3"> </div> 
+                    </div>
+                    
+
+                    
+                    <div class="row">
+                            <div class="col-md-3"> </div> 
+                        <div class="col-md-0"></div>
+                        <div class="col-md-1">
+                            <input type="submit" class="btn btn-success btn-send" value="Send message">
+                        </div>
+                 
+                        <div class="col-md-3">
+                            <p class="text-muted">
+                                <strong>*</strong> These fields are required.</a>.</p>
+                        </div>
+                        <div class="col-md-3"> </div> 
+                    </div>
+
+                    </div>
+                    
+                        
+
+            </form>
 
 
 
     </main>
+
+
 
 
     <!-- Footer -->
